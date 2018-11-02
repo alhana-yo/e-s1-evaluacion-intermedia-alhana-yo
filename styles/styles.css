@@ -1,0 +1,87 @@
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 2;
+}
+
+.header--logo {
+    margin-top:10px;
+}
+
+.header--logo--link {
+    text-align: center;
+    
+}
+
+.header--logo--image {
+
+    position: relative;
+    left: 50%;
+
+}
+
+.header--menu {
+    padding: 10px 0 13px 0;
+    
+}
+
+.header--menu--list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu--fields {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 16px;
+}
+
+.menu--fields:first-child {
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+
+.main--section {
+    background-color: #3CDBC0;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.main--section--eslogan {
+
+    width: 100px;
+}
+
+.main--section--text {
+    color: #FFFFFF;
+    font-size: 30px; 
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+@media (min-width: 768px) {
+
+    
+}
