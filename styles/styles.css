@@ -60,43 +60,64 @@ body {
 
 .menu--fields:first-child {
     /* padding-left: 100px; */
-    padding-right: 150px;
+    padding-right: 10px;
 }
 
 
 .menu--fields:last-child {
     /* padding-left: 100px; */
-    padding-left: 150px;
+    padding-left: 10px;
 }
 
 .main--section {
     background-color: #3CDBC0;
     height: 100vh;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
+    margin: 0 auto;
+    
 }
 
-/* .main--section--eslogan {
-
-    width: 100px;
-} */
+.main--section--eslogan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 .main--section--text {
     color: #FFFFFF;
     font-size: 30px; 
     font-weight: bold;
     margin: 0;
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
 }
 
 
 
-@media (min-width: 768px) {
+@media all and (min-width:768px) {
+
+    .header__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+
+    .header--logo {
+        margin:20px 0 20px 30px;
+    }
+
+
+    .menu--fields:first-child {
+        
+        padding-right: 20px;
+    }
+    
+    
+    .menu--fields:last-child {
+        
+        padding-right: 30px;
+    }
 
     
 }
